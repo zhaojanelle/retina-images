@@ -1,0 +1,47 @@
+repo: 'retina-images'
+canvasCourse: 'web-dev-3'
+
+inherit:
+  - naming-restrict-live
+  - git-2
+  - html
+  - css-order-modules-grid-type-main
+  - google-fonts
+  - screenshots-all
+
+html:
+  - path: 'index.html'
+    outline: false
+    has:
+      - 'img[src="images/bee-face.jpg"]'
+      - 'img[src="images/bee-butt.jpg"]'
+
+css:
+  - path: 'css/main.css'
+    locked: true
+  - path: 'css/modules.css'
+    locked: true
+  - path: 'css/grid.css'
+    locked: true
+  - path: 'css/type.css'
+    locked: true
+
+files:
+  - path: 'images/bee-face.jpg'
+    maxSize: 90
+    maxWidth: 1920
+    minWidth: 1920
+    maxHeight: 640
+    minHeight: 640
+    smushed: true
+  - path: 'images/bee-butt.jpg'
+    maxSize: 70
+    maxWidth: 960
+    minWidth: 960
+    maxHeight: 640
+    minHeight: 640
+    smushed: true
+  - path: 'images/placeholder-3by1.svg'
+    exists: false
+  - path: 'images/placeholder-3by2.svg'
+    exists: false
