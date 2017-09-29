@@ -8,7 +8,7 @@
 
 This is the starter code for a step-by-step lesson. Each step is described in detail here:
 
-### [**Follow the Retina images lesson starter step-by-step lesson ➔**](http://learn-the-web.algonquindesign.ca/courses/web-dev-3/retina-images/)
+### [**Follow the Retina images step-by-step lesson ➔**](http://learn-the-web.algonquindesign.ca/courses/web-dev-3/retina-images/)
 
 ---
 
